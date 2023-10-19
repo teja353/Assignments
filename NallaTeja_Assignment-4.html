@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment-4</title>
+        <style>
+            #line
+            {
+                position: absolute;
+                left: 100px;
+            }
+            table,td
+            {
+                height: 60px;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="get" action="C:\Users\Dell\Desktop\test.docx">
+            <h2>Talk to Expert Registration Form</h2>
+            <hr>
+            <p id="line">Talk to Expert Registration Form</p><br><br>
+            <table border="1" style="border-collapse:collapse;">
+                <tr>
+                    <td>&nbsp Enter Your First Name&nbsp</td>
+                    <td style="text-align: center;">&nbsp : &nbsp</td>
+                    <td>&nbsp<input type="text" name="First Name" id="First Name" 
+                        placeholder="Enter your first name"></td>
+                    
+                </tr>
+                <tr>
+                    <td>&nbsp Enter Your Last Name&nbsp</td>
+                    <td style="text-align: center;">&nbsp : &nbsp</td>
+                    <td>&nbsp<input type="text" name="Last Name" id="Last Name" 
+                        placeholder="Enter your Last name"></td>
+                </tr>
+                <tr>
+                    <td>&nbsp I am Pursuing</td>
+                    <td style="text-align: center;">&nbsp : &nbsp</td>
+                    <td>&nbsp CSE<input type="radio" name="Branch" id="Branch" value="CSE">
+                        ECE<input type="radio" name="Branch" id="Branch" value="ECE">
+                        Mech<input type="radio" name="Branch" id="Branch" value="Mech">
+                        Other<input type="radio" name="Branch" id="Branch" value="Other">
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp I am good AT</td>
+                    <td style="text-align: center;">&nbsp : &nbsp</td>
+                    <td>&nbsp JAVA<input type="checkbox" name="Skills" id="Skills" value="JAVA">
+                        PYTHON<input type="checkbox" name="Skills" id="Skills" value="PYTHON">
+                        HTML<input type="checkbox" name="Skills" id="Skills" value="HTML">
+                        JS<input type="checkbox" name="Skills" id="Skills" value="JS">
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp Mobile Number</td>
+                    <td style="text-align: center;">&nbsp : &nbsp</td>
+                    <td>&nbsp<input type="number" name="Mobile" id="Mobile"
+                        placeholder="7893220059"></td>
+                </tr>
+                <tr>
+                    <td>&nbsp Graduation Year</td>
+                    <td style="text-align: center;">&nbsp:&nbsp</td>
+                    <td>&nbsp<select>
+                        <option>Select Year</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                    </select>  
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp Any Queries??</td>
+                    <td style="text-align: center;">&nbsp : &nbsp</td>
+                    <td style="height: 20px;">&nbsp<textarea rows="5" cols="20" name="queries" id="queries"
+                         placeholder="Is there any questions?"></textarea>
+                    </td>
+                </tr> 
+                <tr> 
+                    <th colspan="3" style="text-align: left;" height="50px">&nbsp<input type="submit" name="submit" id="submit">    
+                    </th>   
+                </tr>       
+            </table>
+        </form>
+    </body>
+</html>
