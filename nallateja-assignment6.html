@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class 6 Assignment</title>
+        <link href="index1.css" rel="stylesheet">
+        <style>
+            h1
+{
+    color: green;
+    text-align: left;
+}
+#intro
+{
+    border: 1px solid black;
+}
+#intro > p
+{
+    word-spacing: 5px;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#intro > p span
+{
+    color: red;
+}
+#intro .important 
+{
+    background-color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+ #intro .important span
+{
+    color: white;
+}
+#innerDiv
+{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+#innerDiv p
+{
+    border: 1px solid blue;
+    word-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.important 
+{
+    background-color: yellow;
+}
+.important span
+{
+    color: red;
+}
+        </style>
+    </head>
+    <body>
+        <h1>CSS Selectors</h1>
+        <div id="intro">
+            <p>This is the <span>first</span> paragraph</p>
+            <p class="important">This is an <span> important</span> paragraph inside the intro Div</p>
+            <div id="innerDiv">
+                <p>This is paragraph inside div with 0px padding and 0px margin</p>
+            </div>
+        </div>
+            <p>This is regular paragraph</p>
+            <p class="important">This is an <span>important</span> paragraph that is not in the intro div</p>
+    </body>
+</html>
